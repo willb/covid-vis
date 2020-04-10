@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "==1.18.1"
+pandas = "==1.0.3"
+altair = "==4.1.0"
+vega = "*"
+jupyter = "*"
+
+
+[requires]
+python_version = "3.7"
